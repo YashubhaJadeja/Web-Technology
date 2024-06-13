@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GCD of two number</title>
+</head>
+<body>
+<script>
+ a=prompt(" Enter a number first number ")
+ b=prompt(" Enter a number second  number ")
+
+temp=0;
+
+ for(i=1;i<=a && i<=b;i++){
+    if(a%i==0 && b%i==0){
+        temp=i;
+ }
+ 
+ }
+ document.write("GCD of two number is "+temp);
+</script>
+</body>
+</html>
