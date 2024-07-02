@@ -3,24 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lab5_1</title>
-    <style>
-        button {margin-left: 650px;
-                margin-top: 300px;};
-    </style>
-</head> 
-<body id="bg">
-	<button onclick="changeCol()">Click Me</button>
-<script type="text/javascript">
-	function changeCol()
-    {
-		col = document.getElementById('bg');
-		a =Math.random()*255;
-		b = Math.random()*255;
-		c = Math.random()*255;
-		d = Math.random();
-		col.style.backgroundColor = `rgba(${a},${b},${c},${d})`;
-	}
-</script>
+    <title>Document</title>
+</head>
+<body  id="bg">
+    <div>  <input type="button"  value="Click" onclick="bg()"> </div>
+
+    <script>
+        function bg(){
+       
+            var col = document.getElementById('bg');
+            col.style.backgroundColor =`rgb(204, 153, 255)`;
+
+        }
+    </script>
 </body>
-</html>
+</html> 
